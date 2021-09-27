@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1070722701B9440083C4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070712701B9440083C4F1 /* AppDelegate.swift */; };
+		AE1070742701B9440083C4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070732701B9440083C4F1 /* SceneDelegate.swift */; };
+		AE1070762701B9440083C4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070752701B9440083C4F1 /* ViewController.swift */; };
+		AE1070792701B9440083C4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1070772701B9440083C4F1 /* Main.storyboard */; };
+		AE10707B2701B94B0083C4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10707A2701B94B0083C4F1 /* Assets.xcassets */; };
+		AE10707E2701B94B0083C4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10707C2701B94B0083C4F1 /* LaunchScreen.storyboard */; };
+		AE1070892701B94B0083C4F1 /* KCNotificationCenterToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070882701B94B0083C4F1 /* KCNotificationCenterToolTests.swift */; };
+		AE1070942701B94C0083C4F1 /* KCNotificationCenterToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070932701B94C0083C4F1 /* KCNotificationCenterToolUITests.swift */; };
+		AE1070A52701B9E70083C4F1 /* NotificationCenter+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */; };
+		AE1070AA2701BC320083C4F1 /* UIButton+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070A92701BC320083C4F1 /* UIButton+Action.swift */; };
+		AE1070AF2701BEB90083C4F1 /* DemoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070AE2701BEB90083C4F1 /* DemoVc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1070852701B94B0083C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1070662701B9440083C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10706D2701B9440083C4F1;
+			remoteInfo = KCNotificationCenterTool;
+		};
+		AE1070902701B94C0083C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1070662701B9440083C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10706D2701B9440083C4F1;
+			remoteInfo = KCNotificationCenterTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE10706E2701B9440083C4F1 /* KCNotificationCenterTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCNotificationCenterTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1070712701B9440083C4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1070732701B9440083C4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE1070752701B9440083C4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1070782701B9440083C4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE10707A2701B94B0083C4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE10707D2701B94B0083C4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE10707F2701B94B0083C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1070842701B94B0083C4F1 /* KCNotificationCenterToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCNotificationCenterToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1070882701B94B0083C4F1 /* KCNotificationCenterToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNotificationCenterToolTests.swift; sourceTree = "<group>"; };
+		AE10708A2701B94B0083C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10708F2701B94C0083C4F1 /* KCNotificationCenterToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCNotificationCenterToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1070932701B94C0083C4F1 /* KCNotificationCenterToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNotificationCenterToolUITests.swift; sourceTree = "<group>"; };
+		AE1070952701B94C0083C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Tool.swift"; sourceTree = "<group>"; };
+		AE1070A92701BC320083C4F1 /* UIButton+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Action.swift"; sourceTree = "<group>"; };
+		AE1070AE2701BEB90083C4F1 /* DemoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE10706B2701B9440083C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1070812701B94B0083C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10708C2701B94C0083C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1070652701B9440083C4F1 = {
+			isa = PBXGroup;
+			children = (
+				AE1070702701B9440083C4F1 /* KCNotificationCenterTool */,
+				AE1070872701B94B0083C4F1 /* KCNotificationCenterToolTests */,
+				AE1070922701B94C0083C4F1 /* KCNotificationCenterToolUITests */,
+				AE10706F2701B9440083C4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE10706F2701B9440083C4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE10706E2701B9440083C4F1 /* KCNotificationCenterTool.app */,
+				AE1070842701B94B0083C4F1 /* KCNotificationCenterToolTests.xctest */,
+				AE10708F2701B94C0083C4F1 /* KCNotificationCenterToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1070702701B9440083C4F1 /* KCNotificationCenterTool */ = {
+			isa = PBXGroup;
+			children = (
+				AE1070712701B9440083C4F1 /* AppDelegate.swift */,
+				AE1070732701B9440083C4F1 /* SceneDelegate.swift */,
+				AE1070752701B9440083C4F1 /* ViewController.swift */,
+				AE1070AE2701BEB90083C4F1 /* DemoVc.swift */,
+				AE1070A92701BC320083C4F1 /* UIButton+Action.swift */,
+				AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */,
+				AE1070772701B9440083C4F1 /* Main.storyboard */,
+				AE10707A2701B94B0083C4F1 /* Assets.xcassets */,
+				AE10707C2701B94B0083C4F1 /* LaunchScreen.storyboard */,
+				AE10707F2701B94B0083C4F1 /* Info.plist */,
+			);
+			path = KCNotificationCenterTool;
+			sourceTree = "<group>";
+		};
+		AE1070872701B94B0083C4F1 /* KCNotificationCenterToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1070882701B94B0083C4F1 /* KCNotificationCenterToolTests.swift */,
+				AE10708A2701B94B0083C4F1 /* Info.plist */,
+			);
+			path = KCNotificationCenterToolTests;
+			sourceTree = "<group>";
+		};
+		AE1070922701B94C0083C4F1 /* KCNotificationCenterToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1070932701B94C0083C4F1 /* KCNotificationCenterToolUITests.swift */,
+				AE1070952701B94C0083C4F1 /* Info.plist */,
+			);
+			path = KCNotificationCenterToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE10706D2701B9440083C4F1 /* KCNotificationCenterTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1070982701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterTool" */;
+			buildPhases = (
+				AE10706A2701B9440083C4F1 /* Sources */,
+				AE10706B2701B9440083C4F1 /* Frameworks */,
+				AE10706C2701B9440083C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCNotificationCenterTool;
+			productName = KCNotificationCenterTool;
+			productReference = AE10706E2701B9440083C4F1 /* KCNotificationCenterTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1070832701B94B0083C4F1 /* KCNotificationCenterToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10709B2701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterToolTests" */;
+			buildPhases = (
+				AE1070802701B94B0083C4F1 /* Sources */,
+				AE1070812701B94B0083C4F1 /* Frameworks */,
+				AE1070822701B94B0083C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1070862701B94B0083C4F1 /* PBXTargetDependency */,
+			);
+			name = KCNotificationCenterToolTests;
+			productName = KCNotificationCenterToolTests;
+			productReference = AE1070842701B94B0083C4F1 /* KCNotificationCenterToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE10708E2701B94C0083C4F1 /* KCNotificationCenterToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10709E2701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterToolUITests" */;
+			buildPhases = (
+				AE10708B2701B94C0083C4F1 /* Sources */,
+				AE10708C2701B94C0083C4F1 /* Frameworks */,
+				AE10708D2701B94C0083C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1070912701B94C0083C4F1 /* PBXTargetDependency */,
+			);
+			name = KCNotificationCenterToolUITests;
+			productName = KCNotificationCenterToolUITests;
+			productReference = AE10708F2701B94C0083C4F1 /* KCNotificationCenterToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1070662701B9440083C4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AE10706D2701B9440083C4F1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AE1070832701B94B0083C4F1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE10706D2701B9440083C4F1;
+					};
+					AE10708E2701B94C0083C4F1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AE10706D2701B9440083C4F1;
+					};
+				};
+			};
+			buildConfigurationList = AE1070692701B9440083C4F1 /* Build configuration list for PBXProject "KCNotificationCenterTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1070652701B9440083C4F1;
+			productRefGroup = AE10706F2701B9440083C4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE10706D2701B9440083C4F1 /* KCNotificationCenterTool */,
+				AE1070832701B94B0083C4F1 /* KCNotificationCenterToolTests */,
+				AE10708E2701B94C0083C4F1 /* KCNotificationCenterToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE10706C2701B9440083C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10707E2701B94B0083C4F1 /* LaunchScreen.storyboard in Resources */,
+				AE10707B2701B94B0083C4F1 /* Assets.xcassets in Resources */,
+				AE1070792701B9440083C4F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1070822701B94B0083C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10708D2701B94C0083C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE10706A2701B9440083C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1070762701B9440083C4F1 /* ViewController.swift in Sources */,
+				AE1070A52701B9E70083C4F1 /* NotificationCenter+Tool.swift in Sources */,
+				AE1070722701B9440083C4F1 /* AppDelegate.swift in Sources */,
+				AE1070AA2701BC320083C4F1 /* UIButton+Action.swift in Sources */,
+				AE1070742701B9440083C4F1 /* SceneDelegate.swift in Sources */,
+				AE1070AF2701BEB90083C4F1 /* DemoVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1070802701B94B0083C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1070892701B94B0083C4F1 /* KCNotificationCenterToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10708B2701B94C0083C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1070942701B94C0083C4F1 /* KCNotificationCenterToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1070862701B94B0083C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10706D2701B9440083C4F1 /* KCNotificationCenterTool */;
+			targetProxy = AE1070852701B94B0083C4F1 /* PBXContainerItemProxy */;
+		};
+		AE1070912701B94C0083C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10706D2701B9440083C4F1 /* KCNotificationCenterTool */;
+			targetProxy = AE1070902701B94C0083C4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1070772701B9440083C4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1070782701B9440083C4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE10707C2701B94B0083C4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE10707D2701B94B0083C4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1070962701B94C0083C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1070972701B94C0083C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1070992701B94C0083C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE10709A2701B94C0083C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE10709C2701B94C0083C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNotificationCenterTool.app/KCNotificationCenterTool";
+			};
+			name = Debug;
+		};
+		AE10709D2701B94C0083C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNotificationCenterTool.app/KCNotificationCenterTool";
+			};
+			name = Release;
+		};
+		AE10709F2701B94C0083C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCNotificationCenterTool;
+			};
+			name = Debug;
+		};
+		AE1070A02701B94C0083C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NV79J62JR;
+				INFOPLIST_FILE = KCNotificationCenterToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.KCNotificationCenterToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCNotificationCenterTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1070692701B9440083C4F1 /* Build configuration list for PBXProject "KCNotificationCenterTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1070962701B94C0083C4F1 /* Debug */,
+				AE1070972701B94C0083C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1070982701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1070992701B94C0083C4F1 /* Debug */,
+				AE10709A2701B94C0083C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10709B2701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10709C2701B94C0083C4F1 /* Debug */,
+				AE10709D2701B94C0083C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10709E2701B94C0083C4F1 /* Build configuration list for PBXNativeTarget "KCNotificationCenterToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10709F2701B94C0083C4F1 /* Debug */,
+				AE1070A02701B94C0083C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1070662701B9440083C4F1 /* Project object */;
+}
