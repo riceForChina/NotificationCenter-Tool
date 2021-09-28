@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DemoVc: UIViewController,KCNotificationObserverProtocol {
+class DemoVc: UIViewController,KCNotificationObserverProtocol,KCKVOObserverProtocol {
     static let CLICK_BTN = Notification.Name(rawValue: "click_Btn")
     
     lazy var btn: UIButton = {
@@ -36,6 +36,9 @@ class DemoVc: UIViewController,KCNotificationObserverProtocol {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        addKVOObserver(target: btn, keyPath: "frame", option: [.new,.old]) { (change) in
+            print("change -----\(change)")
+        }
         self.view.backgroundColor = .white
         btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         
@@ -47,7 +50,11 @@ class DemoVc: UIViewController,KCNotificationObserverProtocol {
         
     }
     
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        
+    }
     /*
     // MARK: - Navigation
 

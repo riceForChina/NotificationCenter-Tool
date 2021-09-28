@@ -18,6 +18,7 @@
 		AE1070A52701B9E70083C4F1 /* NotificationCenter+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */; };
 		AE1070AA2701BC320083C4F1 /* UIButton+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070A92701BC320083C4F1 /* UIButton+Action.swift */; };
 		AE1070AF2701BEB90083C4F1 /* DemoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1070AE2701BEB90083C4F1 /* DemoVc.swift */; };
+		AE1072882702EEDF0083C4F1 /* KVO+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1072872702EEDF0083C4F1 /* KVO+Tool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Tool.swift"; sourceTree = "<group>"; };
 		AE1070A92701BC320083C4F1 /* UIButton+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Action.swift"; sourceTree = "<group>"; };
 		AE1070AE2701BEB90083C4F1 /* DemoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVc.swift; sourceTree = "<group>"; };
+		AE1072872702EEDF0083C4F1 /* KVO+Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KVO+Tool.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				AE1070AE2701BEB90083C4F1 /* DemoVc.swift */,
 				AE1070A92701BC320083C4F1 /* UIButton+Action.swift */,
 				AE1070A42701B9E70083C4F1 /* NotificationCenter+Tool.swift */,
+				AE1072872702EEDF0083C4F1 /* KVO+Tool.swift */,
 				AE1070772701B9440083C4F1 /* Main.storyboard */,
 				AE10707A2701B94B0083C4F1 /* Assets.xcassets */,
 				AE10707C2701B94B0083C4F1 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			files = (
 				AE1070762701B9440083C4F1 /* ViewController.swift in Sources */,
 				AE1070A52701B9E70083C4F1 /* NotificationCenter+Tool.swift in Sources */,
+				AE1072882702EEDF0083C4F1 /* KVO+Tool.swift in Sources */,
 				AE1070722701B9440083C4F1 /* AppDelegate.swift in Sources */,
 				AE1070AA2701BC320083C4F1 /* UIButton+Action.swift in Sources */,
 				AE1070742701B9440083C4F1 /* SceneDelegate.swift in Sources */,
